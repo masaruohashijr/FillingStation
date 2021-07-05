@@ -26,7 +26,8 @@ public class Manager {
 		List<CsvRow> models = fileService.loadAll("modelos.csv", Model.class);
 		List<CsvRow> vehicles = fileService.loadAll("veiculos.csv", Vehicle.class);
 		FuelPump gasPump = new FuelPump(FuelType.GAS, 2.90, 10.0);
-		FuelPump ethanolPump = new FuelPump(FuelType.ETHANOL, 2.27, 12.0);
+		//FuelPump ethanolPump = new FuelPump(FuelType.ETHANOL, 2.27, 12.0);
+		FuelPump ethanolPump = new FuelPump(FuelType.ETHANOL, 1.92, 12.0);
 		for (CsvRow csvRow : vehicles) {
 			Vehicle vehicle = (Vehicle) csvRow;
 			FuelPump chosenPump = vehicle.choosePump(gasPump, ethanolPump);

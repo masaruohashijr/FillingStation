@@ -22,7 +22,7 @@ public class ShowDetails extends JFrame {
 		return instance;
 	}
 	/**
-	 * Method used to show and input dialog with a textarea containing a report.
+	 * Method used to show an input dialog with a textarea containing a report.
 	 * @param title
 	 * @param defaultText
 	 * @return
@@ -32,7 +32,7 @@ public class ShowDetails extends JFrame {
 		msg.setLineWrap(true);
 		msg.setWrapStyleWord(true);
 		JScrollPane scrollPane = new JScrollPane(msg);
-		scrollPane.setPreferredSize(new Dimension(600, 250));
+		scrollPane.setPreferredSize(new Dimension(600, 320));
 		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 		int ris = JOptionPane.showConfirmDialog(null, scrollPane, title, JOptionPane.OK_CANCEL_OPTION,
 				JOptionPane.PLAIN_MESSAGE);

@@ -59,8 +59,8 @@ public class FuelPump {
 
 	public void supplys(Vehicle v) {
 		Double fuelCapacity = v.getModel().getFuelCapacity();
-		double durationInMinutes = fuelCapacity / fuelSupplySpeed;
-		instantTime = instantTime.plusMinutes(Math.round(durationInMinutes));
+		double durationInMinutes = fuelCapacity / this.fuelSupplySpeed;
+		this.instantTime = this.instantTime.plusMinutes(Math.round(durationInMinutes));
 		CashBook.getInstance().register(instantTime, this, v);
 		this.total += v.getModel().getFuelCapacity();
 	}
@@ -68,4 +68,9 @@ public class FuelPump {
 	public Double getTotal() {
 		return total;
 	}
+
+	public LocalTime getInstantTime() {
+		return instantTime;
+	}
+
 }
