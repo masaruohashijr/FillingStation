@@ -38,9 +38,9 @@ format (values below are merely illustrative):
 
 ...
 
-[00:05] FIAT-UNO model vehicle, plate JGA-7389 was filled with 48 liters of ETHANOL.
+[00:05] Vehicle model FIAT-UNO, plate JGA-7389 was supllied with 48 liters of ETHANOL.
 
-[00:10] Vehicle model AUDI-A4, plate JGB-1234 was filled with 65 liters of GASOLINE.
+[00:10] Vehicle model AUDI-A4, plate JGB-1234 was supllied with 65 liters of GASOLINE.
 
 ...
 
@@ -48,13 +48,13 @@ format (values below are merely illustrative):
 
 #--------------------------
 
-Total fueled in pump 1 (PETROL): 1517 liters
+Total supllied in pump 1 (GASOLINE): 1517 liters
 
-Total filled in pump 2 (ETHANOL): 1125 liters
+Total supllied in pump 2 (ETHANOL): 1125 liters
 
-Overall total fueled with PETROL: 1517 liters
+Total supllied by the pump 1 (GASOLINE): 1517 liters
 
-Total ETHANOL supplied: 1125 liters
+Total supllied by the pump 2 (ETHANOL): 1125 liters
 
 
 
