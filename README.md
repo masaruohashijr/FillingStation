@@ -18,7 +18,8 @@ The following items should be evaluated:
 
   ■ Change queuing criterion
 
-Problem:
+
+**Problem:**
 
 A gas station with two independent pumps, one for alcohol and another one for gasoline, receives vehicles of different natures. 
 
@@ -31,7 +32,7 @@ Create a program that simulates the filling of a list of vehicles entered in the
 Assuming all vehicles are empty and will have topped up, and minimizing the price/km driven when directing vehicles to the pumps, the output must be produced in the chronological order of events, in the following
 format (values below are merely illustrative):
 
-Simulation result
+**Simulation result**
 
 #---------------------------
 
@@ -43,7 +44,7 @@ Simulation result
 
 ...
 
-Simulation Summary
+**Simulation Summary**
 
 #--------------------------
 
@@ -56,7 +57,8 @@ Overall total fueled with PETROL: 1517 liters
 Total ETHANOL supplied: 1125 liters
 
 
-Additional Information:
+
+**Additional Information:**
 
 The price of a liter of PETROL is R$ 2.90
 
@@ -67,4 +69,10 @@ Gas pump filling speed: 10 liters / minute
 Alcohol pump filling speed: 12 liters / minute
 
 
-Hint: Favor low coupling and high cohesion in the proposed solution, minimizing impacts in case of changes in the problem definitions.
+
+**Hint:** 
+
+Favor low coupling and high cohesion in the proposed solution, minimizing impacts in case of changes in the problem definitions.
+
+![image](https://user-images.githubusercontent.com/20522327/124470250-c4ef6b80-dd71-11eb-81b3-7ee7b6d5df76.png)
+
