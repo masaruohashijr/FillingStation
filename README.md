@@ -74,7 +74,7 @@ Alcohol pump filling speed: 12 liters / minute
 
 Favor low coupling and high cohesion in the proposed solution, minimizing impacts in case of changes in the problem definitions.
 
-![image](https://user-images.githubusercontent.com/20522327/124475681-5e218080-dd78-11eb-9c16-46c8363f7468.png)
+![image](https://user-images.githubusercontent.com/20522327/124477152-0edc4f80-dd7a-11eb-9f77-d33bdeccb3b7.png)
 
 
 
